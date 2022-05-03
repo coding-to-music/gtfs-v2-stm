@@ -1,3 +1,24 @@
+# gtfs-v2-stm
+
+# 🚀 Javascript full-stack 🚀
+
+https://github.com/coding-to-music/gtfs-v2-stm
+
+https://gtfs-v2-stm.vercel.app
+
+https://gtfs-v2-stm.herokuapp.com
+
+by ansel brandt https://github.com/anselbrandt
+
+https://github.com/anselbrandt/gtfs-v2-stm
+
+## Environment Values
+
+```java
+      apikey: STMKEY,
+
+```
+
 # GTFS Realtime V2 Feed from Montreal STM
 
 This example code fetches the realtime GTFS feed from the Société de transport de Montréal (STM) [GTFS-REALTIME V2 API](https://developpeurs.stm.info/documentation/gtfsrtv2).
@@ -53,3 +74,40 @@ Vehicle information will be in the form:
 #### GTFS V2 Data Structure and Type Definitions
 
 [https://github.com/google/transit/blob/master/gtfs-realtime/proto/gtfs-realtime.proto](https://github.com/google/transit/blob/master/gtfs-realtime/proto/gtfs-realtime.proto)
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/gtfs-v2-stm.git
+git push -u origin main
+```
+
+## Heroku
+
+```java
+heroku create gtfs-v2-stm
+
+```
+
+## Heroku MongoDB Environment Variables
+
+```java
+heroku config:set
+
+heroku config:set MONGODB_URI="your value"
+```
+
+## Push to Heroku
+
+```java
+git push heroku
+
+# or
+
+npm run deploy
+```
