@@ -12,7 +12,8 @@
   ],
   "scripts": {
     "start": "node index.js",
-    "deploy": "git add . && git commit -m Build && git push && git push heroku && heroku logs --tail --remote heroku"
+    "deploy": "git add . && git commit -m Build && git push",
+    "olddeploy": "git add . && git commit -m Build && git push && git push heroku && heroku logs --tail --remote heroku"
   },
   "dependencies": {
     "dotenv": "^16.0.0",
