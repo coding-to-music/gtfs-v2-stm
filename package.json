@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "start": "node index.js",
-    "deploy": "git add . && git commit -m Build && git push",
+    "deploy": "git add . && git commit -m Build && git push && vercel --prod",
     "olddeploy": "git add . && git commit -m Build && git push && git push heroku && heroku logs --tail --remote heroku"
   },
   "dependencies": {
