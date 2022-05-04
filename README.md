@@ -1,12 +1,12 @@
 # gtfs-v2-stm
 
+## calls STM GTFS API only no UI, produces JSON file
+
 # 🚀 Javascript full-stack 🚀
 
 https://github.com/coding-to-music/gtfs-v2-stm
 
-https://gtfs-v2-stm.vercel.app
-
-https://gtfs-v2-stm.herokuapp.com
+https://gtfs-v2-stm.vercel.app -- calls STM GTFS API only no UI
 
 by ansel brandt https://github.com/anselbrandt
 
@@ -15,8 +15,7 @@ https://github.com/anselbrandt/gtfs-v2-stm
 ## Environment Values
 
 ```java
-      apikey: STMKEY,
-
+STMKEY=""
 ```
 
 # GTFS Realtime V2 Feed from Montreal STM
