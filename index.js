@@ -1,7 +1,10 @@
 const fetch = require("node-fetch");
 const { load } = require("protobufjs");
 
-const STMKEY = "stm_developer_apikey";
+require("dotenv").config();
+
+// const STMKEY = "stm_developer_apikey";
+const STMKEY = process.env.STMKEY;
 const URL = "https://api.stm.info/pub/od/gtfs-rt/ic/v2/vehiclePositions";
 
 async function main() {

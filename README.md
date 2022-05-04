@@ -92,6 +92,11 @@ git push -u origin main
 ```java
 heroku create gtfs-v2-stm
 
+
+ ›   Warning: heroku update available from 7.60.1 to 7.60.2.
+Creating ⬢ gtfs-v2-stm... !
+ ▸    You've reached your app limit of 100 apps. Delete some apps or open a ticket at
+ ▸    https://help.heroku.com/new/increase-limits to have this limit increased.
 ```
 
 ## Heroku MongoDB Environment Variables
